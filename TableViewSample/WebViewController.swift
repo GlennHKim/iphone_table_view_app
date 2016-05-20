@@ -24,6 +24,9 @@ class WebViewController: UIViewController, UIWebViewDelegate {
                 let urlRequest = NSURLRequest(URL: NSURL(string: urlStr)!)
                 webView.loadRequest(urlRequest)
             }
+            
+            // title 표시
+            navigationItem.title = tmpBook.title
         }
     }
 
