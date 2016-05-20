@@ -21,6 +21,7 @@
 		CA3CF1BC1CEDA811004C6D66 /* l9791186137239.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA3CF1B51CEDA811004C6D66 /* l9791186137239.jpg */; };
 		CA3CF1BD1CEDA811004C6D66 /* l9791195322183.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA3CF1B61CEDA811004C6D66 /* l9791195322183.jpg */; };
 		CA3CF1BE1CEDA811004C6D66 /* l9791195538225.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA3CF1B71CEDA811004C6D66 /* l9791195538225.jpg */; };
+		CA3CF1C01CEE961A004C6D66 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3CF1BF1CEE961A004C6D66 /* BookTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		CA3CF1B51CEDA811004C6D66 /* l9791186137239.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = l9791186137239.jpg; sourceTree = "<group>"; };
 		CA3CF1B61CEDA811004C6D66 /* l9791195322183.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = l9791195322183.jpg; sourceTree = "<group>"; };
 		CA3CF1B71CEDA811004C6D66 /* l9791195538225.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = l9791195538225.jpg; sourceTree = "<group>"; };
+		CA3CF1BF1CEE961A004C6D66 /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				CA3CF19A1CED969A004C6D66 /* AppDelegate.swift */,
 				CA3CF19C1CED969A004C6D66 /* ViewController.swift */,
 				CA3CF1AC1CEDA144004C6D66 /* FirstViewController.swift */,
+				CA3CF1BF1CEE961A004C6D66 /* BookTableViewCell.swift */,
 				CA3CF19E1CED969A004C6D66 /* Main.storyboard */,
 				CA3CF1AE1CEDA71A004C6D66 /* BookVO.swift */,
 				CA3CF1A11CED969A004C6D66 /* Assets.xcassets */,
@@ -180,6 +183,7 @@
 				CA3CF1AD1CEDA144004C6D66 /* FirstViewController.swift in Sources */,
 				CA3CF19D1CED969A004C6D66 /* ViewController.swift in Sources */,
 				CA3CF19B1CED969A004C6D66 /* AppDelegate.swift in Sources */,
+				CA3CF1C01CEE961A004C6D66 /* BookTableViewCell.swift in Sources */,
 				CA3CF1AF1CEDA71A004C6D66 /* BookVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +334,7 @@
 				CA3CF1AB1CED969A004C6D66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -65,14 +65,15 @@ class FirstViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! BookTableViewCell
 
         // Configure the cell...
         let row = books[indexPath.row]
         
-        cell.textLabel?.text = row.title
-        cell.detailTextLabel?.text = row.writer
-        cell.imageView?.image = UIImage(named: row.cover!)
+        cell.title?.text = row.title
+        cell.writer?.text = row.writer
+        cell.publisher?.text = row.publisher
+        cell.cover?.image = UIImage(named: row.cover!)
         
         return cell
     }
