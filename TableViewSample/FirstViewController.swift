@@ -77,6 +77,13 @@ class FirstViewController: UITableViewController {
         
         return cell
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if(segue.identifier == "book_web"){
+            let indexPath = self.tableView.indexPathForCell(sender as! BookTableViewCell)
+            (segue.destinationViewController as? WebViewController)?.book = books[(indexPath?.row)!]
+        }
+    }
 
     /*
     // Override to support conditional editing of the table view.
